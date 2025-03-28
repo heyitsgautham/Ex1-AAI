@@ -99,6 +99,8 @@ ax = plt.gca()
 ax.margins(0.10)
 plt.axis("off")
 plt.show()
+print("NAME  : GAUTHAM KRISHNA S")
+print("REG NO: 212223240036")
 print(probs(df, child='Humidity9amCat'))
 print(probs(df, child='Humidity3pmCat', parent1='Humidity9amCat'))
 print(probs(df, child='WindGustSpeedCat'))
@@ -107,18 +109,14 @@ print(probs(df, child='RainTomorrow', parent1='Humidity3pmCat', parent2='WindGus
 
 ## Output:
 #### Variable bands:
-![363492179-6182ef77-1ac1-420a-abe7-b65c0a66df52](https://github.com/user-attachments/assets/2a4f5053-015a-4215-a108-304cba167a59)
 
-![363492179-6182ef77-1ac1-420a-abe7-b65c0a66df52](https://github.com/user-attachments/assets/dc5e1a15-15ff-4f37-9abd-853611df673b)
+<img width="1147" alt="image" src="https://github.com/user-attachments/assets/dc25a613-60ba-4149-bf95-1cf7f06b6eca" />
 
-![363492179-6182ef77-1ac1-420a-abe7-b65c0a66df52](https://github.com/user-attachments/assets/cbb44580-ab85-4ed6-abb2-7d77bc2c675d)
-
-![363492192-c9882288-32b6-4e1e-a6d5-b667c3a403b6](https://github.com/user-attachments/assets/417a3bb9-282c-4594-8f17-28c99bac9178)
-
-![363492192-c9882288-32b6-4e1e-a6d5-b667c3a403b6](https://github.com/user-attachments/assets/6cfd0ce4-cec7-42e0-a1b3-53e59c1c72ba)
 
 #### Graph:
-![363492202-91d35ed4-efa4-4af6-95ee-dfc3b9f6f992](https://github.com/user-attachments/assets/1567d133-d23e-4b8b-8853-f0c5b61f5921)
+
+<img width="1852" alt="image" src="https://github.com/user-attachments/assets/06e1f9d1-e410-4314-9613-1774e2a2d512" />
+
 
 ## Result:
    Thus a Bayesian Network is generated using Python
